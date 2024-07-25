@@ -22,7 +22,7 @@ const config = {
   server: process.env.SERVER, // SQL Server instance name
   database: process.env.DATABASE, // Database name
   options: {
-    encrypt: true, // Set to true if you need encryption
+    encrypt: false, // Set to true if you need encryption
     trustServerCertificate: true // Set to true if using self-signed certificates
   }
 };
