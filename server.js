@@ -23,7 +23,8 @@ const config = {
   database: process.env.DATABASE, // Database name
   options: {
     encrypt: false, // Set to true if you need encryption
-    trustServerCertificate: true // Set to true if using self-signed certificates
+    trustServerCertificate: true, // Set to true if using self-signed certificates
+     enableArithAbort: true
   }
 };
 
